@@ -5,5 +5,7 @@ public class Zoo {
         Bird bird1 = new Bird(20, "M", 20);
 
         bird1.nap();
+        bird1.fly();
+        bird1.age();
     }
 }

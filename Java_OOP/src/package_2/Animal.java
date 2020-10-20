@@ -1,6 +1,6 @@
 package package_2;
 
-public class Animal {
+public abstract class Animal {
     int age;
     String gender;
     int weightInLbs;
@@ -16,6 +16,8 @@ public class Animal {
     }
 
     public void nap(){
-        System.out.println("Sleeping");;
+        System.out.println("Sleeping");
     }
+
+    public abstract void move();
 }
